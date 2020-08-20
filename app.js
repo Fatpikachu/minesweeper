@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', () => {
       && (flags < bombAmount)){
         if(!square.classList.contains('flag')){
           square.classList.add('flag');
-          square.innerHTML = "<img src='./strawHatFlag.jpg' width=40px height=40px />";
+          square.innerHTML = "🚩";
           flags++;
           checkForWin();
         } else {
